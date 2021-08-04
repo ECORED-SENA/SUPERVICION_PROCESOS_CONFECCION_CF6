@@ -64,12 +64,6 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -99,79 +93,97 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Armando sk. (2012). AGUJAS PARA MÁQUINA DE COSER / LITTLE POST.',
+      link: 'https://www.pinterest.es/pin/157133474477830809/',
+    },
+    {
+      referencia: 'Brildor. (2021). ¿Qué aguja debo comprar para mi máquina?',
+      link: 'https://www.brildor.com/es/costura/agujas.html',
+    },
+    {
+      referencia:
+        'Confecciones con máquinas industriales. (2019). Maquina fileteadora, sobrehiladora u overlook.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://confecionesconmaquinasindustriales.blogspot.com/2011/08/maquina-fileteadorasobrehiladora-u.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'El rincón de Celeste Cielo. (2012). Agujas de máquina según el tipo de tela y el hilo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://elrincondecelestecielo.blogspot.com/2012/05/agujas-de-maquina-segun-el-tipo-de-tela.html#:~:text=Tipos%20de%20agujas%3A&text=Donde%20los%20n%C3%BAmero%209%2C%2010,de%20bola%20o%20media%20bola',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Groz, B. (2021). Sewing, Agujas para máquinas de coser para la industria de la confección.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://groz-beckert.com/mm/media/es/web/pdf/Sewing_machine_needles_for_the_apparel_industry.pdf ',
+    },
+    {
+      referencia: 'Gutierrez S. (s.f). Enhebrado y calibración máquina plana.',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Gutierrez S. (s.f). Enhebrado y puesta a punto de máquina recubridora.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Jiménez, A. (2014). Partes y funciones de la máquina collarín. (2021).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://prezi.com/me9vvu-vchcj/partes-y-funciones-de-la-maquina-collarin/',
+    },
+    {
+      referencia: 'Máquina de Coser. (2016). La Aguja y sus partes.',
+      link: 'https://maquinadecoser.com.pe/la-aguja-y-sus-partes/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Pardo, M. (2012). GUÍAS, PIES ADITAMENTOS PARA LA INDUSTRIA DE LA CONFECCIÓN.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://drive.google.com/file/d/1AcqRumpgJ8tC1jikb2bfXNrcPhlr7OFG/view?usp=sharing',
+    },
+    {
+      referencia: 'SENA. (s.f.). Control de calidad en confección.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'SENA. (2021). Componente formativo 15, parte A: Taller básico de máquinas. Repositorios SENA.',
+    },
+    {
+      referencia:
+        'Top Máquinas de Coser. (s.f). Partes de la máquina de coser industrial.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://topmaquinasdecoser.es/partes-de-la-maquina-de-coser-industrial/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ajuste',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Elementos mecánicos que se ajustan a cada tipo de material o tejido, bien sea liviano, semi pesado o pesado.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Alimentación o transporte',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Alimentación en la maquinaria de confección se refiere al desplazamiento del material a coser.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Barra de aguja',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Elemento mecánico su movimiento es rectilíneo vertical, sostiene la aguja en posición.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Barra prénsatela',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Elemento mecánico barra que sujeta el prénsatela o pie de la máquina.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'Calibre de aguja',
+      significado: 'Es la que determina el tipo o grosor del material a coser',
     },
     {
-      termino: 'Diseño',
+      termino: 'Corchete',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Elemento mecánico utilizado para producir la puntada de cadeneta a un hilo.',
     },
     {
       termino: 'Tipología',
@@ -179,24 +191,33 @@ export default {
         'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'Costura',
+      significado: 'Unión de dos o más materiales o tejidos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Diente',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Este dispositivo mecánico es el encargado de desplazar el material a coser.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Extensor',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Elemento mecánico utilizado en la mayoría de las veces como auxiliar de los looper, corchetes para formar la puntada.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Guía hilos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Elemento mecánico que sirve para guiar el hilo durante todo su recorrido.',
+    },
+    {
+      termino: 'Lanzadera',
+      significado:
+        'Elemento mecánico que junto con la aguja, sirve para formar la puntada, su movimiento es oscilatorio.',
+    },
+    {
+      termino: 'Looper',
+      significado:
+        'Elemento mecánico que tiene hilo propio o sea se puede enhebrar como las agujas, es decir tiene ojo.  ',
     },
   ],
   complementario: [
@@ -244,6 +265,30 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Paola Angélica Castro Salazar',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Ledy Johana Velásquez Hernández',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria para la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -258,20 +303,20 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Julian Marquez Sanabria',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Luis Gabriel Urueta Alvarez',
+        cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
