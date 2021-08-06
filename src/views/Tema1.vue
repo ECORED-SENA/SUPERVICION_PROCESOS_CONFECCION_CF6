@@ -17,7 +17,7 @@
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade-up")
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Costura")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Costura
             p.text-dark.mb-0 Es el entrelazamiento y/o unión entre dos o más hilos puestos en recorrido de una o más telas.
@@ -25,7 +25,7 @@
             img(src='@/assets/curso/tema1/img02.png', alt='Costura')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Características")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Características
             p.text-dark.mb-0 Están estrechamente relacionadas con el tipo de puntada, material puesto para coser y la relación entre elementos (hilos, tela y ajuste de máquina).
@@ -33,7 +33,7 @@
             img(src='@/assets/curso/tema1/img03.png', alt='Características')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Apariencia")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Apariencia
             p.text-dark.mb-0 Es la presentación final de la costura, donde se evalúa que la puntada y la lazada no quedan con defectos.
@@ -41,7 +41,7 @@
             img(src='@/assets/curso/tema1/img08.png', alt='Apariencia')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Seguridad")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Seguridad
             p.text-dark.mb-0 Se refiere a la capacidad de la puntada para desarmarse o deshilarse el material.
@@ -49,7 +49,7 @@
             img(src='@/assets/curso/tema1/img04.png', alt='Seguridad')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Confort")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Confort
             p.text-dark.mb-0 Es la comodidad y elongación que brinda la costura en la tela  cuando está expuesta al contacto con la piel y al momento de uso de la prenda.
@@ -57,7 +57,7 @@
             img(src='@/assets/curso/tema1/img05.png', alt='Confort')
 
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Resistencia")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Resistencia
             p.text-dark.mb-0 Es la capacidad que tiene la costura de soportar refuerzos y cargas en la tela, sin reventarse o dañarse.
@@ -65,7 +65,7 @@
             img(src='@/assets/curso/tema1/img06.png', alt='Resistencia')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Clasificación")
-        .position-relative.d-block.d-md-flex.justify-content-end
+        .position-relative.d-block.d-lg-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Clasificación
             p.text-dark.mb-0 Según la forma en que se entrelazan los hilos, el número de agujas, hileras de puntadas, el lugar que ocupan en orden dentro del grupo y la cantidad de costuras previas que lleva, las costuras están clasificadas en 4 grupos: sobrepuestas, envivadas, engarzadas y tope a tope también llamadas canto a canto.
