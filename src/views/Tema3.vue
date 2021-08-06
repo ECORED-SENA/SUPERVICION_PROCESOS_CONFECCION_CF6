@@ -10,7 +10,7 @@
     
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-11
-        .bloque-texto-g.color-acento-contenido.BG02.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-acento-contenido.BG022.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img.BGpostLeft(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.jpg')})`}"
           )

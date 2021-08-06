@@ -256,7 +256,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Ericka Alexandra Blanco Sánchez',
+        nombre: 'Erika Alexandra Blanco Sánchez',
         cargo: 'Experta temática',
         centro:
           'Centro de formación en diseño, confección y moda - Regional Antioquia',
