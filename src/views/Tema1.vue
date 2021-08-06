@@ -24,13 +24,21 @@
           figure.pst02
             img(src='@/assets/curso/tema1/img02.png', alt='Costura')
       
+      .tarjeta.color-acento-Botones.BG04.p-4(titulo="Características")
+        .position-relative.d-block.d-md-flex.justify-content-end
+          .BGwhite05.brdFull.pst01.p-4
+            h3.text-dark Características
+            p.text-dark.mb-0 Están estrechamente relacionadas con el tipo de puntada, material puesto para coser y la relación entre elementos (hilos, tela y ajuste de máquina).
+          figure.pst02
+            img(src='@/assets/curso/tema1/img03.png', alt='Características')
+      
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Apariencia")
         .position-relative.d-block.d-md-flex.justify-content-end
           .BGwhite05.brdFull.pst01.p-4
             h3.text-dark Apariencia
             p.text-dark.mb-0 Es la presentación final de la costura, donde se evalúa que la puntada y la lazada no quedan con defectos.
           figure.pst02
-            img(src='@/assets/curso/tema1/img03.png', alt='Apariencia')
+            img(src='@/assets/curso/tema1/img08.png', alt='Apariencia')
       
       .tarjeta.color-acento-Botones.BG04.p-4(titulo="Seguridad")
         .position-relative.d-block.d-md-flex.justify-content-end
@@ -80,7 +88,7 @@
                     p.mb-0 Planas 1 aguja, fileteadoras con puntada de seguridad o sin ella siempre que estén cosiendo en 2 o más telas, recubridoras, máquinas de zigzag.
                 .col-lg-6.bg-white.brdBtn.p-4
                   p.mb-4 
-                    strong Algunas operaciones que se realizan con este tipo de costura                  
+                    strong Algunas operaciones que se realizan con este tipo de costura
                   ul.lista-ul--color.mb-0
                     li 
                       i.lista-ul__vineta
@@ -115,6 +123,23 @@
                     li.mb-0
                       i.lista-ul__vineta
                       | Presillas pasador.
+          
+          .row.justify-content-center.m-4
+            .col-md-11.col-lg-9
+              .row.align-items-end
+                .col-lg-6
+                  figure.mb-2
+                    img(src='@/assets/curso/tema1/Simg16.svg', alt='Sobrepuestas 06')
+                  h3 Máquinas que la producen
+                  .bg-white.brdBtn.p-4
+                    p.mb-0 Planas 2 agujas, máquinas de cadeneta con 2 o más agujas como cerradoras de codo, recubridoras, reportadoras, empretinadoras.
+                .col-lg-6.bg-white.brdBtn.p-4
+                  p.mb-4 
+                    strong Algunas operaciones que se realizan con este tipo de costura
+                  ul.lista-ul--color.mb-0
+                    li 
+                      i.lista-ul__vineta
+                      | Pegar vivos o sesgos sobre puestos.
           
           .row.justify-content-center.m-4
             .col-md-11.col-lg-9
@@ -307,7 +332,7 @@
                     img(src='@/assets/curso/tema1/Simg31.svg', alt='Sobrepuestas 01')
                   h3 Máquinas que la producen
                   .bg-white.brdBtn.p-4
-                    p.mb-0 Plana o cadeneta 1 o más agujas. 
+                    p.mb-0 Plana o cadeneta. 
                 .col-lg-6.bg-white.brdBtn.p-4
                   p.mb-4 
                     strong Algunas operaciones que se realizan con este tipo de costura
@@ -421,7 +446,7 @@
                     img(src='@/assets/curso/tema1/Simg41.svg', alt='Sobrepuestas 01')
                   h3 Máquinas que la producen
                   .bg-white.brdBtn.p-4
-                    p.mb-0 Recubridora o flatseamer.
+                    p.mb-0 Recubridora o #[em flatseamer].
                 .col-lg-6.bg-white.brdBtn.p-4
                   p.mb-4 
                     strong Algunas operaciones que se realizan con este tipo de costura

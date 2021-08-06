@@ -12,7 +12,7 @@
       .bloque-texto-g__img.BGpostLeft(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
       )
-      .bloque-texto-g__texto.d-grid.p-4
+      .bloque-texto-g__texto.wNew.d-grid.p-4
         p.mb-4 En base a las diferentes máquinas y la composición de su estructura, tipo de operación a desarrollar y partes que la conforman, es importante señalar el conjunto de piezas que funcionan por accionamiento mecánico, estas son las siguientes:
 
         .row.d-flex.align-items-end

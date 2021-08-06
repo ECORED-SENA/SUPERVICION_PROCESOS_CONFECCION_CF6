@@ -15,8 +15,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.jpg')})`}"
           )
           .bloque-texto-g__texto.d-grid.p-4
-            p.mb-4 Las agujas tienen una referencia, especificaciones técnicas de uso, clasificación y grosor lo cual realizaremos una descripción de cada parte y servicio que pueden desarrollar y agilizar las operaciones en la confección.
-            p.mb-4 De acuerdo con el sitio web Máquina de Coser (2016), la aguja se considera como una herramienta indispensable para la costura en la introducción en las máquinas para la confección, determinadas para penetrar el insumo y transportar el hilo que permita unir con el hilo.
+            p.mb-4 Las normas contienen las especificaciones técnicas de cada producto y como estas mismas deben ser operadas del desarrollo del producto, siempre en pro de cumplir estándares y especificaciones para asegurar parámetros de calidad dentro de un rango de cumplimiento en la presentación, calidad y estética de las prendas o artículos a producir.
+            p.mb-4 En el cuadernillo podrá conocer las normas asociadas a la calidad en los procesos de confección.
             .row.d-flex.justify-content-center
               .col-lg-8
                 a.anexo(:href="obtenerLink('/downloads/Anexo4_Calidad_confeccion.pdf')" target="_blank")
@@ -27,7 +27,7 @@
     
     h2(data-aos="fade") Puntadas por pulgada (PPP)
 
-    p.mb-5 Cuando la sucesión de puntadas está hecha sobre un mismo material entrelazado con el mismo (dobladillado) o no, recibe el nombre de pespuntes. Estos apoyan y afirman las costuras internas, lo cual genera a modo visual una apariencia estética, pero estas costuras también generan refuerzo a diversos materiales que necesitan tener una mayor resistencia por la composición de la tela; están clasificados así:
+    p.mb-5 Se debe tener en cuenta que, al escribir las especificaciones de una prenda, se debe detallar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su proceso de costura. La razón de esto se debe a que la cantidad de puntadas por pulgada puede tener influencia en aspectos como:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
       .col-lg-8

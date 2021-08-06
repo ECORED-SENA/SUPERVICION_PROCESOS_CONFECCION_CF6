@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 6
-      h1 Aditamentos
+      h1 Tipos de puntadas y costuras
     
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-11

@@ -15,8 +15,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img01.jpg')})`}"
           )
           .bloque-texto-g__texto.d-grid.p-4
-            p.mb-4 Las normas contienen las especificaciones técnicas de cada producto y como estas mismas deben ser operadas del desarrollo del producto, siempre en pro de cumplir estándares y especificaciones para asegurar parámetros de calidad dentro de un rango de cumplimiento en la presentación, calidad y estética de las prendas o artículos a producir.
-            p.mb-4 En el cuadernillo podrá conocer las normas asociadas a la calidad en los procesos de confección.
+            p.mb-4 Las agujas tienen una referencia, especificaciones técnicas de uso, clasificación y grosor lo cual realizaremos una descripción de cada parte y servicio que pueden desarrollar y agilizar las operaciones en la confección.
+            p.mb-4 De acuerdo con el sitio web Máquina de Coser (2016), la aguja se considera como una herramienta indispensable para la costura en la introducción en las máquinas para la confección, determinadas para penetrar el insumo y transportar el hilo que permita unir con el hilo.
         
         .BGgt.mb-5(data-aos="flip-up")
           .BG02.p-4.mb-5.brdBtn
@@ -24,7 +24,7 @@
           
           .row.d-flex.justify-content-center
             .col-10.col-md-8.col-lg-4
-              ImagenInfografica.color-secundario.mb-5
+              ImagenInfografica.color-acento-contenido.mb-5
 
                 template(v-slot:imagen)
                   figure
@@ -72,7 +72,7 @@
           div(titulo="Quilting o aguja para acolchados")
             p Esta aguja tiene una punta afilada y cónica con un eje largo, puede perforar múltiples capas de tela manteniendo unas condiciones de puntadas rectas, perforando capas gruesas sin dañar el tejido.
           
-          div(titulo="Ballpoint o punta de bola")
+          div(titulo="Sharp o aguja de punta azul")
             p Punta extremadamente fina, esta aguja es ideal para hacer pespuntes en telas delicadas, como seda o microfibras.
     
     p.mb-4 En la figura 2 de puede apreciar la diferencia entre cada una de las puntas de las agujas.
@@ -85,180 +85,188 @@
       h2.mb-0.text-center ¿Qué punta de aguja necesito?
 
     .row.justify-content-center.mb-2
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img03.svg', alt='SPI')
-          h4.text-center Fina
-          h3.text-center SPI
-          p.text-center.mb-0 Se suele usar para tejidos gruesos ya que puede perforarlos, logrando así unas puntadas precisas.
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: gorras, correas,...
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img03.svg', alt='SPI')
+            h4.text-center Fina
+            h3.text-center SPI
+            p.text-center.mb-0 Se suele usar para tejidos gruesos ya que puede perforarlos, logrando así unas puntadas precisas.
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: gorras, correas,...
       
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img04.svg', alt='NB')
-          h4.text-center Bola normal
-          h3.text-center NB
-          p.text-center.mb-0 Recomendada para tejidos con poca elacticidad y no muy gruesos.
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: camisetas, polos, mantas,...
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img04.svg', alt='NB')
+            h4.text-center Bola normal
+            h3.text-center NB
+            p.text-center.mb-0 Recomendada para tejidos con poca elacticidad y no muy gruesos.
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: camisetas, polos, mantas,...
+        
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img05.svg', alt='SPI')
+            h4.text-center Bola pequeña
+            h3.text-center SES
+            p.text-center.mb-0 Para tejidos y géneros de punto, es la que menos daño produce en las fibras.
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: generos de punto en general
+        
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img06.svg', alt='SUK')
+            h4.text-center Bola media
+            h3.text-center SUK
+            p.text-center.mb-0 Para tejidos elásticos o con elastómero, porque no perforan las fibras, las desplazan a un lado.
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: trajes de baño
       
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img05.svg', alt='SPI')
-          h4.text-center Bola pequeña
-          h3.text-center SES
-          p.text-center.mb-0 Para tejidos y géneros de punto, es la que menos daño produce en las fibras.
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: generos de punto en general
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img07.svg', alt='SKL')
+            h4.text-center Bola especial
+            h3.text-center SKL
+            p.text-center.mb-0 Para tejidos elásticos o con elastómeros, porque no perforan las fibras, las desplazan a un lado.
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: lenceria
       
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img06.svg', alt='SUK')
-          h4.text-center Bola media
-          h3.text-center SUK
-          p.text-center.mb-0 Para tejidos elásticos o con elastómero, porque no perforan las fibras, las desplazan a un lado.
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: trajes de baño
+      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
+        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+          .pb-4.px-4
+            figure.mb-4
+              img.w-75.mx-auto(src='@/assets/curso/tema4/img08.svg', alt='SKF')
+            h4.text-center Bola grande
+            h3.text-center SKF
+            p.text-center.mb-0 Para tejidos elásticos con estructuras muy gruesas y abiertas
+          .BGgt2.p-4
+            p.text-center.mb-0 Ej.: jerseys
       
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img07.svg', alt='SKL')
-          h4.text-center Bola especial
-          h3.text-center SKL
-          p.text-center.mb-0 Para tejidos elásticos o con elastómeros, porque no perforan las fibras, las desplazan a un lado.
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: lenceria
-      
-      .col-2(data-aos="slide-up")
-        .BGgt.pb-4.px-4
-          figure.mb-4
-            img.w-75.mx-auto(src='@/assets/curso/tema4/img08.svg', alt='SKF')
-          h4.text-center Bola grande
-          h3.text-center SKF
-          p.text-center.mb-0 Para tejidos elásticos con estructuras muy gruesas y abiertas
-        .BGgt2.p-4
-          p.text-center.mb-0 Ej.: jerseys
-    
     figcaption #[strong Fuente:] Blog Insumos Textiles. (2021).
 
     .BefCont.mb-5
       .row.justify-content-center.position-relative.p-4
         .col-lg-11
           .row.justify-content-center.align-items-end
-            .col-lg-6(data-aos="fade-right")
+            .col-lg-5(data-aos="fade-right")
               h3.mb-4 Calibres y grosor de agujas
               p.mb-4 La numeración asignada para el calibre de agujas se puede ver de manera minuciosa en el cabo de la aguja, consta de un numero de dos cifras, donde indica el diámetro o grosor de esta.
               figure.mb-4
                 img(src='@/assets/curso/tema4/img09.svg', alt='Calibres y grosor de agujas')
-            .col-lg-6(data-aos="fade-left")
+            .col-lg-7(data-aos="fade-left")
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 1
                 span Calibres de agujas, consideración de tejido con relación de hilos a utilizar
-              table.text-center.bg-white.mb-2.tableS1
-                thead
-                  tr
-                    th(rowspan='2') Tejido
-                    th.BG01s(colspan='2') Hilo
-                    th.BG01s(colspan='2') Aguja
-                  tr
-                    th Tex
-                    th Nm
-                    th N&uacute;mero Europeo (NM)
-                    th N&uacute;mero Americano (Singer)
-                tbody
-                  tr
-                    td(rowspan='4') Fino
-                    td 14
-                    td 200
-                    td 55
-                    td 6
-                  tr
-                    td 16
-                    td 180
-                    td 65
-                    td 9
-                  tr
-                    td 21
-                    td 140
-                    td 70
-                    td 10
-                  tr
-                    td 30
-                    td 80
-                    td 80
-                    td 12
-                  tr
-                    td(rowspan='2') Medio
-                    td 45
-                    td 60
-                    td 90
-                    td 14
-                  tr
-                    td 70
-                    td 40
-                    td 110
-                    td 18
-                  tr
-                    td(rowspan='3') Grueso
-                    td 90
-                    td 30
-                    td 120
-                    td 19
-                  tr
-                    td 105
-                    td 27
-                    td 125
-                    td 20
-                  tr
-                    td 135
-                    td 20
-                    td 140
-                    td 22
-                  tr
-                    td(rowspan='7') Muy grueso
-                    td 210
-                    td 13
-                    td 160
-                    td 23
-                  tr
-                    td 270
-                    td 10
-                    td 180
-                    td 24
-                  tr
-                    td 350
-                    td 8
-                    td 230
-                    td 26
-                  tr
-                    td 400
-                    td 7
-                    td 250
-                    td 27
-                  tr
-                    td 500
-                    td 6
-                    td 280
-                    td 28
-                  tr
-                    td 600
-                    td 5
-                    td 280
-                    td 28
-                  tr
-                    td 700
-                    td 4
-                    td 30
-                    td 29                    
-                  tr
-                    td.text-start(colspan='5')
-                      | Estos valores recomendados son orientativos y se ofrecen como una referencia de partida, pero deber&aacute;n comprobarse y adaptarse a cada caso.
+              
+              .minCont1
+                table.text-center.bg-white.mb-2.tableS1
+                  thead
+                    tr
+                      th(rowspan='2') Tejido
+                      th.BG01s(colspan='2') Hilo
+                      th.BG01s(colspan='2') Aguja
+                    tr
+                      th Tex
+                      th Nm
+                      th N&uacute;mero Europeo (NM)
+                      th N&uacute;mero Americano (Singer)
+                  tbody
+                    tr
+                      td(rowspan='4') Fino
+                      td 14
+                      td 200
+                      td 55
+                      td 6
+                    tr
+                      td 16
+                      td 180
+                      td 65
+                      td 9
+                    tr
+                      td 21
+                      td 140
+                      td 70
+                      td 10
+                    tr
+                      td 30
+                      td 80
+                      td 80
+                      td 12
+                    tr
+                      td(rowspan='2') Medio
+                      td 45
+                      td 60
+                      td 90
+                      td 14
+                    tr
+                      td 70
+                      td 40
+                      td 110
+                      td 18
+                    tr
+                      td(rowspan='3') Grueso
+                      td 90
+                      td 30
+                      td 120
+                      td 19
+                    tr
+                      td 105
+                      td 27
+                      td 125
+                      td 20
+                    tr
+                      td 135
+                      td 20
+                      td 140
+                      td 22
+                    tr
+                      td(rowspan='7') Muy grueso
+                      td 210
+                      td 13
+                      td 160
+                      td 23
+                    tr
+                      td 270
+                      td 10
+                      td 180
+                      td 24
+                    tr
+                      td 350
+                      td 8
+                      td 230
+                      td 26
+                    tr
+                      td 400
+                      td 7
+                      td 250
+                      td 27
+                    tr
+                      td 500
+                      td 6
+                      td 280
+                      td 28
+                    tr
+                      td 600
+                      td 5
+                      td 280
+                      td 28
+                    tr
+                      td 700
+                      td 4
+                      td 300
+                      td 29                    
+                    tr
+                      td.text-start(colspan='5')
+                        | Estos valores recomendados son orientativos y se ofrecen como una referencia de partida, pero deber&aacute;n comprobarse y adaptarse a cada caso.
               
               figcaption #[strong Fuente:] Blog Insumos Textiles. (2021).
     
